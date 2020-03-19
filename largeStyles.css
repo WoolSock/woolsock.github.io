@@ -1,0 +1,26 @@
+body {
+    font-family: "Trebuchet MS", "Verdana", sans-serif;
+    margin: 0;
+    padding: 0;
+    border: 0
+}
+#header-area {
+    width: 100%;
+    min-height: 120px;
+    background-color: #0A0A0A;
+}
+#header-title-area{
+    padding: 10px;
+}
+#header-title-icon-area {
+    display: inline;
+}
+#header-title-icon {
+    height: 80%;
+    display: inline;
+}
+#header-title {
+    color: #ffffff;
+    text-align: left;
+    display: inline;
+}
