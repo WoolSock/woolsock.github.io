@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+<title>Projects</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img_thatWoolSockManIconSmall.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-card" style="background-color: #0A0A0A;" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide" style="color: #dddddd;">PROJECTS</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#main" class="w3-bar-item w3-button" style="color: #dddddd;"><i class="fa fa-file"></i> MAIN</a>
+      <a href="index.html" class="w3-bar-item w3-button" style="color: #dddddd;"><i class="fa fa-home"></i> HOME</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars" style="color: #dddddd;"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar Section -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close <i class="fa fa-times"></i></a>
+  <a href="#main" onclick="w3_close()" class="w3-bar-item w3-button">MAIN</a>
+  <a href="index.html" onclick="w3_close()" class="w3-bar-item w3-button">HOME</a>
+</nav>
+
+<!-- Header Section -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">ThatWoolSockMan Projects</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">ThatWoolSockMan Projects</span><br>
+    <span class="w3-large">Free, public, and flexible projects.</span>
+    <p><a href="#main" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">View Now</a></p>
+  </div>
+</header>
+
+<!-- Main Section -->
+<div class="w3-container" style="padding:128px 16px" id="main">
+  <h3 class="w3-center">PROJECTS</h3>
+  <p class="w3-center w3-large">Categories:</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-quarter">
+      <a href="#libraries"><img src="img_jsLogo.png" class="w3-center" style="width: 100%;">
+      <p class="w3-large">JS Libraries</p>
+      <p>My JavaScript Libraries</p></a>
+    </div>
+    <div class="w3-quarter">
+    <a href="#repos"><img src="img_githubIcon.png" class="w3-center" style="width: 100%;">
+      <p class="w3-large">GitHub Repos</p>
+      <p>My GitHub Repositories</p></a>
+    </div>
+    <div class="w3-quarter">
+      <a href="#scratchandsnap"><img src="img_snapIcon.png" class="w3-center" style="width: 100%;">
+      <p class="w3-large">Scratch + Snap&#33; Projects</p>
+      <p>My Snap&#33; Projects</p></a>
+    </div>
+    <div class="w3-quarter">
+      <a href="#misc"><img src="img_elipsisIcon.png" class="w3-center" style="width: 100%;">
+      <p class="w3-large">Misc. Projects</p>
+      <p>Extra Projects</p></a>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container" style="padding: 128px 16px" id="libraries">
+    <h3 class="w3-center">JS Libraries</h3>
+    <div class="w3-quarter">
+        <img src="" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">ProxyScript</h5>
+        <p class="w3-center">ProxyScript (PSC) is a JS library devoted to simplifing and amplifying JavaScript. It simplifies plain old JS and adds even more functionality.</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">FusionScript</h5>
+        <p class="w3-center">FusionScript (FSC) is created to fuse JavaScript code and PHP code, making web development easier than ever.</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">XJS</h5>
+        <p class="w3-center">XJS (Extended JavaScript) is designed to expand the core functionality of JavaScript and simplify existing methods.</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">GraphicScript</h5>
+        <p class="w3-center">GraphicScript, a JS library designed to draw. Using SVG's capibilities, GraphicScript creates an easy and user-friendly drawing experience.</p>
+    </div>
+</div>
+    
+<div class="w3-container" style="padding: 128px 16px" id="repos">
+    <h3 class="w3-center">GitHub Repos</h3>
+    <div class="w3-quarter">
+        <img src="img_elipsisIcon.png" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">More Coming Soon!</h5>
+        <p class="w3-center">Can't wait!</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="img_elipsisIcon.png" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">More Coming Soon!</h5>
+        <p class="w3-center">Can't wait!</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="img_elipsisIcon.png" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">More Coming Soon!</h5>
+        <p class="w3-center">Can't wait!</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="img_elipsisIcon.png" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">More Coming Soon!</h5>
+        <p class="w3-center">Can't wait!</p>
+    </div>
+</div>
+    
+<div class="w3-container" style="padding: 128px 16px" id="scratchandsnap">
+    <h3 class="w3-center">Scratch + Snap&#33; Projects</h3>
+    <div class="w3-quarter">
+        <img src="img_elipsisIcon.png" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">More Coming Soon!</h5>
+        <p class="w3-center">Can't wait!</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="img_elipsisIcon.png" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">More Coming Soon!</h5>
+        <p class="w3-center">Can't wait!</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="img_elipsisIcon.png" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">More Coming Soon!</h5>
+        <p class="w3-center">Can't wait!</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="img_elipsisIcon.png" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">More Coming Soon!</h5>
+        <p class="w3-center">Can't wait!</p>
+    </div>
+</div>
+    
+<div class="w3-container" style="padding: 128px 16px" id="misc">
+    <h3 class="w3-center">Misc. Projects</h3>
+    <div class="w3-quarter">
+        <img src="img_orslIcon.png" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">ORSL</h5>
+        <p class="w3-center">Object Relational Scripting Language (ORSL) is created to merge PHP and SQL in a new and exciting approach to development.</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="img_elipsisIcon.png" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">More Coming Soon!</h5>
+        <p class="w3-center">Can't wait!</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="img_elipsisIcon.png" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">More Coming Soon!</h5>
+        <p class="w3-center">Can't wait!</p>
+    </div>
+    <div class="w3-quarter">
+        <img src="img_elipsisIcon.png" class="w3-center" style="width: 100%">
+        <h5 class="w3-center">More Coming Soon!</h5>
+        <p class="w3-center">Can't wait!</p>
+    </div>
+</div>
+    
+<!-- Footer Section -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i> Back to top</a>
+</footer>
+ 
+<script src="sidebar.js"></script>
+
+</body>
+</html>

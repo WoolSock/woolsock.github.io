@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<title>ThatWoolSockMan</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<script src="https://kit.fontawesome.com/621a344383.js" crossorigin="anonymous"></script>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("img_thatWoolSockManIconSmall.jpg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+</style>
+<body>
+
+<!-- Navbar Section -->
+<div class="w3-top">
+  <div class="w3-bar w3-card" style="background-color: #0A0A0A;" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide" style="color: #dddddd;">THATWOOLSOCKMAN</a>
+    <!-- Right-sided navbar links -->
+    <div class="w3-right w3-hide-small">
+      <a href="#about" class="w3-bar-item w3-button" style="color: #dddddd;"><i class="fa fa-address-card"></i> ABOUT</a>
+      <a href="#projects" class="w3-bar-item w3-button" style="color: #dddddd;"><i class="fa fa-file"></i> PROJECTS</a>
+      <a href="#accounts" class="w3-bar-item w3-button" style="color: #dddddd;"><i class="fa fa-user"></i> ACCOUNTS</a>
+      <a href="#github" class="w3-bar-item w3-button" style="color: #dddddd;"><i class="fab fa-github"></i> GITHUB</a>
+      <a href="#contact" class="w3-bar-item w3-button" style="color: #dddddd;"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars" style="color: #dddddd;"></i>
+    </a>
+  </div>
+</div>
+
+<!-- Sidebar Section -->
+<nav class="w3-sidebar w3-bar-block w3-black w3-card w3-animate-left w3-hide-medium w3-hide-large" style="display:none" id="mySidebar">
+  <a href="javascript:void(0)" onclick="w3_close()" class="w3-bar-item w3-button w3-large w3-padding-16">Close <i class="fa fa-times"></i></a>
+  <a href="#about" onclick="w3_close()" class="w3-bar-item w3-button">ABOUT</a>
+  <a href="#projects" onclick="w3_close()" class="w3-bar-item w3-button">PROJECTS</a>
+  <a href="#accounts" onclick="w3_close()" class="w3-bar-item w3-button">ACCOUNTS</a>
+  <a href="#github" onclick="w3_close()" class="w3-bar-item w3-button">GITHUB</a>
+  <a href="#contact" onclick="w3_close()" class="w3-bar-item w3-button">CONTACT</a>
+</nav>
+
+<!-- Header Section -->
+<header class="bgimg-1 w3-display-container w3-grayscale-min" id="home">
+  <div class="w3-display-left w3-text-white" style="padding:48px">
+    <span class="w3-jumbo w3-hide-small">Web Developer and Coder</span><br>
+    <span class="w3-xxlarge w3-hide-large w3-hide-medium">Web Developer and Coder</span><br>
+    <span class="w3-large">Making projects for public use</span>
+    <p><a href="#about" class="w3-button w3-white w3-padding-large w3-large w3-margin-top w3-opacity w3-hover-opacity-off">Start today</a></p>
+  </div>
+</header>
+
+<!-- About Section -->
+<div class="w3-container" style="padding:128px 16px" id="about">
+  <h3 class="w3-center">ABOUT THESE PROJECTS</h3>
+  <p class="w3-center w3-large">The Facts:</p>
+  <div class="w3-row-padding w3-center" style="margin-top:64px">
+    <div class="w3-third">
+      <i class="fa fa-users w3-margin-bottom w3-jumbo w3-center"></i>
+      <p class="w3-large">Public</p>
+      <p style="margin-right: 20px; margin-left: 20px;">These projects are completely free for public use. Feel free to utilize them!</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-tools w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Adjustable</p>
+      <p style="margin-right: 20px; margin-left: 20px;">Easy to experiment and tinker with. These projects are designed to flex.</p>
+    </div>
+    <div class="w3-third">
+      <i class="fa fa-diamond w3-margin-bottom w3-jumbo"></i>
+      <p class="w3-large">Design</p>
+      <p style="margin-right: 20px; margin-left: 20px;">Designed to adapt. The projects are versatile and durable.</p>
+    </div>
+  </div>
+</div>
+
+<!-- Projects Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="projects">
+    <h3 class="w3-center">PROJECTS</h3>
+    <p class="w3-center w3-large">My projects - free to use!</p>
+    <p class="w3-center"><a href="projects.html" class="w3-button w3-black"><i class="fa fa-file"> </i> View The Projects</a></p>
+</div>
+
+<!-- Accounts Section -->
+<div class="w3-container" style="padding:128px 16px" id="accounts">
+  <h3 class="w3-center">ACCOUNTS</h3>
+  <p class="w3-center w3-large">My accounts across different websites and platforms - check em' out!</p>
+  <div class="w3-row-padding w3-grayscale" style="margin-top:64px">
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img_codePenIcon.png" alt="CodePen Picture" style="width:100%">
+        <div class="w3-container">
+          <h3>CodePen</h3>
+          <p>My account on CodePen</p>
+            <p><button class="w3-button w3-light-grey w3-block"><a href="https://www.codepen.io/ThatWoolSockMan" target="_blank"><i class="fa fa-envelope"></i> Open</a></button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img_githubIcon.png" alt="GitHub Picture" style="width:100%">
+        <div class="w3-container">
+          <h3>GitHub</h3>
+          <p>My account on GitHub</p>
+          <p><button class="w3-button w3-light-grey w3-block"><a href="https://www.github.com/ThatWoolSockMan" target="_blank"><i class="fa fa-envelope"></i> Open</a></button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img_snapIcon.png" alt="Snap Picture" style="width:100%">
+        <div class="w3-container">
+          <h3>Snap</h3>
+          <p>My account on Snap!</p>
+            <p><button class="w3-button w3-light-grey w3-block"><a href="https://snap.berkeley.edu/user?user=ThatWoolSockMan" target="_blank"><i class="fa fa-envelope"></i> Open</a></button></p>
+        </div>
+      </div>
+    </div>
+    <div class="w3-col l3 m6 w3-margin-bottom">
+      <div class="w3-card">
+        <img src="img_scratchIcon.png" alt="Scratch Picture" style="width:100%;">
+        <div class="w3-container">
+          <h3>Scratch</h3>
+          <p>My account on Scratch</p>
+          <p><button class="w3-button w3-light-grey w3-block"><a href="https://www.scratch.mit.edu/ThatWoolSockMan" target="_blank"><i class="fa fa-envelope"></i> Open</a></button></p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- GitHub Section -->
+<div class="w3-container" style="padding:128px 16px" id="github">
+  <h3 class="w3-center">GITHUB</h3>
+  <p class="w3-center w3-large">My GitHub Profile:</p>
+  <div class="w3-center">
+      <img class="w3-center" style="width: 200px;" src="img_githubIcon.png">
+    <p class="w3-center">My Account on GitHub - I post a lot of stuff here:</p>
+      <button class="w3-button w3-black"><a href="https://www.github.com/ThatWoolSockMan">View</a></button>
+  </div>
+</div>
+
+<!-- Contact Section -->
+<div class="w3-container w3-light-grey" style="padding:128px 16px" id="contact">
+  <h3 class="w3-center">CONTACT</h3>
+  <p class="w3-large w3-center">Contact me!</p>
+    <div class="w3-center">
+  <button class="w3-button w3-black w3-center"><a href="mailto:thatwoolsockman@gmail.com?subject=Feedback
+&body=Hey%21%20I'm sending you a message">Open Email Prompt</a></button>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-64">
+  <a href="#home" class="w3-button w3-light-grey"><i class="fa fa-arrow-up w3-margin-right"></i> Back to top</a>
+</footer>
+ 
+<script src="sidebar.js"></script>
+
+</body>
+</html>
